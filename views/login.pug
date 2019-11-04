@@ -1,0 +1,10 @@
+block content
+    .timeline  
+        form#join-form(action='/login' method='post')
+            .input-group
+                label(for='join-email') 이메일
+                input#join-email(type='email' name='email')
+            .input-group
+                label(for='join-password') 비밀번호
+                input#join-password(type='password' name='password')
+            button#join-btn.btn(type='submit') 로그인
